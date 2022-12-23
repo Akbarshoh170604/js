@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <style>
+        body {
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 1320px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(192, 192, 192);
+            /* width: 150px; */
+            padding: 5px;
+            border-radius: 50px;
+            background-color: rgb(112, 112, 112);
+        }
+
+        .box {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 50px;
+            align-items:center;
+            justify-content: center;
+            /* background-color:rgb(112, 112, 112); */
+            margin-top: 50px;
+        }
+
+        .intro {
+            display: flex;
+            width: 250px;
+            height: 200px;
+            background-color: rgb(112, 112, 112);
+            border-radius: 5px;
+        }
+
+        .link {
+            width: 100px;
+            padding: 10px;
+            background-color: rgb(112, 112, 112);
+            color: rgb(192, 192, 192);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            margin-top: 50px;
+            font-size: 25px;
+        }
+
+        
+    </style>
+
+    <body>
+
+        <h1 class="title container">Online savdoga xush kelibsiz</h1>
+
+        <div class="box container">
+            <div class="intro"></div>
+            <div class="intro"></div>
+            <div class="intro"></div>
+            <div class="intro"></div>
+            <div class="intro"></div>
+            <div class="intro"></div>
+            <div class="intro"></div>
+            <div class="intro"></div>
+        </div>
+
+        <!-- <div class="box__links">
+            <div class="box__link"></div>
+            <div class="box__link"></div>
+            <div class="box__link"></div>
+            <div class="box__link"></div>
+        </div> -->
+
+        <a href="./main.html" class="link">Готовы</a>
+
+        <script src="../js/main.js"></script>
+
+    </body>
+
+</html>
